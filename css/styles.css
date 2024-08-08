@@ -80,7 +80,17 @@ img {
     padding-bottom: 24px;
     display: flex; 
     position: relative;
-}  
+}
+.link-studio::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
 .li {
     margin-right: 40px;
 }
@@ -320,6 +330,7 @@ img {
     background-color: #2e2f42;
     padding: 100px 0;
 }
+
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
