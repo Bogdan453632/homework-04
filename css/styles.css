@@ -69,6 +69,7 @@ img {
 }
 .menu-nav {
     justify-content: flex-start;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-studio {
     font-weight: 500;
@@ -80,13 +81,14 @@ img {
     padding-bottom: 24px;
     display: flex; 
     position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-studio::after {
     content: '';
     width: 100%;
     position: absolute;
     left: 0;
-    bottom: 1px;
+    bottom: -1px;
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
@@ -112,6 +114,7 @@ img {
     display: flex;
     gap: 40px;
     list-style: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-email {
     font-size: 16px;
@@ -120,6 +123,7 @@ img {
     color: #434455;
     display: flex;
     margin-right: 40px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-email:last-child {
     margin-right: 0;
