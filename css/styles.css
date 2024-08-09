@@ -272,7 +272,11 @@ img {
     color: #434455;
     text-align: center;
 }
-
+.list-social {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
 .our-team-item {
     display: flex;
     gap: 24px;
